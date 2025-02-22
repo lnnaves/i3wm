@@ -1,0 +1,42 @@
+# Configuração do Alacritty em TOML - Tema Gruvbox Escuro
+[window]
+opacity = 0.9  # Opacidade da janela
+
+[font]
+size = 12.0
+
+[colors]
+# Cores primárias
+primary = { background = "#1D2021", foreground = "#EBDBB2" }
+
+# Cores normais (tons escuros do Gruvbox)
+[colors.normal]
+black = "#1D2021"   # Preto escuro
+red = "#CC241D"     # Vermelho escuro
+green = "#98971A"   # Verde escuro
+yellow = "#D79921"  # Amarelo escuro
+blue = "#458588"    # Azul escuro
+magenta = "#B16286" # Magenta escuro
+cyan = "#689D6A"    # Ciano escuro
+white = "#A89984"   # Cinza escuro
+
+# Cores brilhantes (tons mais claros do Gruvbox)
+[colors.bright]
+black = "#3C3836"   # Cinza escuro
+red = "#FB4934"     # Vermelho brilhante
+green = "#B8BB26"   # Verde brilhante
+yellow = "#FABD2F"  # Amarelo brilhante
+blue = "#83A598"    # Azul brilhante
+magenta = "#D3869B" # Magenta brilhante
+cyan = "#8EC07C"    # Ciano brilhante
+white = "#EBDBB2"   # Branco suave
+
+# Cores de seleção de texto
+[colors.selection]
+background = "#504945"  # Marrom escuro
+text = "#EBDBB2"        # Branco suave
+
+# Configuração do cursor
+[cursor]
+style = "Underline"
+blink_interval = 750
